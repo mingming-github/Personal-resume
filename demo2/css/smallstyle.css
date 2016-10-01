@@ -1,0 +1,42 @@
+@charset "utf-8";
+/*头部*/
+#page_head{height: 50px;line-height: 50px;}
+#page_head .menu{width: 32px;height: 32px;background-size: 50% 50%;top: 15px;left: 20px;}
+#page_head h1{font-size: 1em;font-weight:bold;}
+
+/*课程分类*/
+#page_classfy ul li a{font-size:1em;}
+#page_classfy ul li a span img{width:40px;height: 40px;}
+
+/*课程推荐内容*/
+#page_recommend ul li .recommend_img{margin-right:0px;}
+#page_recommend ul li .recommend_cont h2{font-size: 1em;color: #9F9F9F;line-height:1em;}
+#page_recommend ul li .recommend_cont p{font-size: 0.7em;line-height:1.5em;}
+
+#page_recommend ul li .recommend_cont .recommend_data ul li{margin:0px;}
+#page_recommend ul li .recommend_cont .recommend_data ul li:nth-of-type(1){width: 45px;padding: 0px;}
+#page_recommend ul li .recommend_cont .recommend_data ul li:nth-of-type(2){width:85px;padding:0px 0px 0px 0px;}
+#page_recommend ul li .recommend_cont .recommend_data ul li:nth-of-type(3){width: 60px;padding:0px;}
+#page_recommend ul li .recommend_cont .recommend_data ul li a img{width:10px;height: 10px;}
+#page_recommend ul li .recommend_cont .recommend_data ul li a span{font-size:0.5em;}
+
+/*导航内容*/
+#page_nav .page_touxiang{text-align: center;padding: 20px;}
+#page_nav .page_touxiang a img{width: 70px;height: 70px;}
+#page_nav .page_touxiang a p{font-size: 1em;padding-top: 10px;}
+#page_nav .page_sel ul li{padding: 10px 0 15px 20px;background:#262e47;}
+#page_nav .page_sel ul li img{padding-right: 15px;width:17px;height:17px;}
+#page_nav .page_sel ul li a span{font-size:1em;}
+
+/*课程资料*/
+#kecheng_menu ul li{padding:15px 20px;}
+#kecheng_menu ul li a div{font-size: 14px;}
+#kecheng_menu ul li a .kecheng_img img{width: 14px;height: 14px;}
+#kecheng_menu ul li a .kecheng_name{line-height:16px;margin-left:20px;margin-right:10px;}
+#kecheng_menu ul li a .kecheng_right{line-height:18px;font-size:20px;}
+
+/*离线课程*/
+#page_tap .page_taphead ul li{line-height:40px;font-size: 0.9em;}
+#page_tap .page_tapbody ul .page_tapbody_1 .page_add span{font-size: 0.8em;padding: 10px 15px}
+#page_tap .page_tapbody ul .page_tapbody_1 .page_teacher .teacher .teacher_data h2{font-size:0.8em;}
+#page_tap .page_tapbody ul .page_tapbody_1 .page_teacher .teacher .teacher_data p{font-size:0.5em;line-height:15px;}

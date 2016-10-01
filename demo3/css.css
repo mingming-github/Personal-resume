@@ -1,0 +1,50 @@
+#wrap {
+	margin: 50px auto;
+	position: relative;
+}
+
+.map0 {
+	background-color: #708090;
+	width: 50px;
+	height: 50px;
+	/*背景*/
+	float: left;
+}
+
+.map1 {
+	background-image: url(img/wall.png);
+	width: 50px;
+	height: 50px;
+	/*墙*/
+	float: left;
+}
+
+.map2 {
+	background-color: #0000FF;
+	width: 50px;
+	height: 50px;
+	/*蓝色方块*/
+	float: left;
+}
+
+.map3 {
+	background-color: #FF0000;
+	width: 50px;
+	height: 50px;
+	/*红色方块*/
+	float: left;
+}
+
+.box {
+	width: 50px;
+	height: 50px;
+	background-image: url(img/box.png);
+	position: absolute;
+}
+
+.person {
+	width: 50px;
+	height: 50px;
+	background-image: url(img/person.png);
+	position: absolute;
+}

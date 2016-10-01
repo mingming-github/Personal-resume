@@ -1,0 +1,117 @@
+@charset "utf-8";
+/*
+ * author:mingming
+ */
+*{margin: 0px;padding: 0px;font-family:"Myriad Pro" "微软雅黑" ;list-style: none;text-decoration: none;
+  color: #FFFFFF;}
+a,span{font-family: "microsoft yahei";}
+dd{color: #000000;}
+/*头部导航 1*/
+#page_top{width: 100%;}
+#pageHead_nav{height:30px;width: 1348px; background:#ee1c24;position: relative;line-height: 30px;}
+
+#pageHead_nav a.login:hover{color: #ffffff;}
+#pageHead_nav a.register:hover{color: #ffffff;}
+
+#pageHead_nav div.searchbox{width: 250px;height: 20px;position: absolute;right:200px;top:5px;overflow:hidden;}
+#pageHead_nav div.searchbox .searchimg a{position: absolute;right:0px;}
+#pageHead_nav div.searchcont{position: absolute;top:-7px;right:-230px;}
+#pageHead_nav div.searchcont  form input.searchsubmit{background: url(../images/search2.gif) no-repeat;
+              width: 12px;height: 12px;border: none; top:10px;left:5px;position: absolute;}
+#pageHead_nav div.searchcont  form input.searchtext{
+	          text-indent: 20px;border: none;height: 20px;width: 230px;border-radius:5px;}
+#pageHead_nav a{font-size:12px;color: #e3e3e3;position: absolute;}
+#pageHead_nav a.login{right: 150px;}
+#pageHead_nav a.register{right:100px;}
+
+/*头部导航 2*/
+#pageHead_pic{height: 130px;width: 1348px;background:#ee1c24 url(../images/banner.jpg) no-repeat center center;}
+
+/*头部导航 3*/
+#pageHead_list{height: 70px;background: #c6171e;display:-webkit-box;display:-moz-box;width: 1348px;}
+#pageHead_list div{height: 70px;padding-left:0px;position: relative;}
+#pageHead_list div:nth-of-type(1){-webkit-box-flex:1.3;-moz-box-flex:1.3;}
+#pageHead_list div:nth-of-type(n+2){-webkit-box-flex:1;-moz-box-flex:1;}
+#pageHead_list div:nth-of-type(3) ul{left:60px;}
+#pageHead_list div:nth-of-type(3) ul li:nth-of-type(1) img{position: absolute;top:10px;left:70px;}
+#pageHead_list div span{font-size: 22px;font-weight:400;font-family: "microsoft yahei";line-height: 70px;}
+
+#pageHead_list div ul{position: absolute;top: 0px;left:40px;width:165px;}
+#pageHead_list div ul li{float: left;width:80px;height: 35px; text-align: center;line-height: 35px;font-weight:600;}
+#pageHead_list div ul li a:hover{color:#D55A9E ;}
+
+#pageHead_list div.list_shishang{padding-left:80px;}
+#pageHead_list div.list_shishang ul{left:120px;width:250px;}
+#pageHead_list div.list_shishang ul li{}
+
+#pageHead_list div.list_shouji{background: url(../images/app.gif) no-repeat 0px 30px;}
+#pageHead_list div.list_shouji:hover{background-position-y: 25px;}
+
+
+
+/*内容部分头部*/
+
+#wedding{width:1348px;height: 800px;}
+#wedding .weddingcon{width: 830px;margin-left: 84px;}
+#wedding .weddingcon .weddinghead{height: 50px;width:830px;line-height: 50px;padding: 10px 0px;
+		 border-bottom: 1px solid #E3E3E3;}
+#wedding .weddingcon .weddinghead h3{float: left;color: black;}
+#wedding .weddingcon .weddinghead span{float: right;margin-left: 10px;}
+
+/*内容部分 竖排样式*/
+#wedding .weddingcon .group1 .part{width: 830px;height: 250px;margin-top:20px;padding-bottom: 20px;margin-bottom: 20px;
+		  border-bottom: 1px solid #E3E3E3;}
+#wedding .weddingcon .group1 .part .partleft{width: 240px;height: 240px;border: 1px solid #E3E3E3;float: left;
+		 }
+#wedding .weddingcon .part .partleft a{width: 240px;height: 240px; text-align: center;vertical-align: middle;
+		 display: table-cell;}
+#wedding .weddingcon .group1 .part .partright{width: 570px;height: 270px;float: right;}
+#wedding .weddingcon .group1 .part .partright h2{color: black;margin-bottom: 20px;}
+#wedding .weddingcon .group1 .part .partright span{color:#A9A9A9;font-size: 12px;margin-bottom: 20px;display: block;}
+#wedding .weddingcon .group1 .part .partright p{margin-bottom: 20px;color: black;}
+#wedding .weddingcon .group1 .part .partright a{width:70px;height:35px;background:#E3E3E3;display:block;color: dimgray;
+		 line-height: 35px;text-align: center;font-size: 13px;}
+#wedding .weddingcon .group1 .part .partright a:hover{color: red;}
+		
+/*内容部分 横排样式*/		
+#wedding .weddingcon .group2{width:264px;float: left;margin-right:19px;}
+#wedding .weddingcon .group2:nth-last-of-type(1){margin-right: 0px;margin-top:-9px;}
+#wedding .weddingcon .group2 .part{border: 1px solid #E3E3E3;margin-top: 20px;}
+#wedding .weddingcon .group2 .part .partleft{}
+#wedding .weddingcon .part .partleft a{width: 264px;display:table-cell;vertical-align: middle;text-align: center;}
+
+#wedding .weddingcon .group2 .part .partright{overflow: hidden;text-align: center;}
+#wedding .weddingcon .group2 .part .partright h2{color: black;margin-bottom: 20px;font-size: 15px;}
+#wedding .weddingcon .group2 .part .partright span{color:#A9A9A9;font-size: 12px;display: block;float:left;
+		  width:192px;height:35px;background: #E3E3E3;color: dimgray;line-height: 35px;text-align: center;}
+#wedding .weddingcon .group2 .part .partright p{margin-bottom: 20px;color: black;display: none;}
+#wedding .weddingcon .group2 .part .partright a{width:69px;height:35px;background:#E3E3E3;display:block;
+         color: dimgray;line-height: 35px;text-align: center;font-size: 13px;float: right;
+         border-left: 1px solid #FFFFFF;}
+#wedding .weddingcon .group2 .part .partright a:hover{color: red;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

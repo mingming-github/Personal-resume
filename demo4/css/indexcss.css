@@ -1,0 +1,309 @@
+* {
+				margin: 0px;
+				padding: 0px;
+				text-decoration: none;
+				/*公用*/
+				font-family: "microsoft yahei";
+			}
+			
+			html,
+			body {
+				width: 100%;
+				height: 100%;
+				/*min-width: 1200px;*/
+				/*公用*/
+				/*公用*/
+				/*公用*/
+			}
+			
+			ul li {
+				list-style: none;
+				/*公用*/
+			}
+			
+			#head {
+				width: 100%;
+				height: 70px;
+				background-color: slategray;
+			}
+			
+			div.content {
+				/*公用*/
+				width: 1200px;
+				margin: auto;
+			}
+			
+			#head .content {
+				height: 100%;
+				line-height: 70px;
+			}
+			
+			#head .content .logo {
+				margin-top: 17px;
+				margin-right: 80px;
+				float: left;
+			}
+			
+			#head .content .menu li a {
+				float: left;
+				color: #FFFFFF;
+				font-size: 14px;
+				margin: 0px 5px;
+				padding: 0px 20px;
+			}
+			
+			#head .content .menu li a:hover {
+				background-color: #ADD8E6;
+			}
+			
+			#head .content .msg {
+				position: relative;
+				float: right;
+				margin-right: 250px;
+			}
+			
+			#head .content .msg form input {
+				background-color: #141720;
+				color: #FFFFFF;
+				padding: 5px;
+				padding-right: 30px;
+				border-radius: 3px;
+				border: 1px solid #FFFFFF;
+				width: 170px;
+				position: absolute;
+				top: 20px;
+			}
+			
+			#head .content .msg form a {
+				width: 30px;
+				height: 30px;
+				background: #33FFFF;
+				display: block;
+				position: absolute;
+				top: 20px;
+				left: 180px;
+				background: url("images/icons.png");
+				background-position: -365px 6px;
+			}
+			
+			#head .content .msg form input:hover {
+				border: 1px solid #0000FF;
+			}
+			
+			#head .content .meil {
+				position: relative;
+				float: right;
+				width: 70px;
+				height: 100%;
+			}
+			
+			#head .content .meil a {
+				display: block;
+				width: 22px;
+				height: 16px;
+				top: 25px;
+				left: 25px;
+				position: absolute;
+				background: url("../images/icons.png") no-repeat;
+				background-position: -368px -22px;
+			}
+			
+			#head .content .meil em {
+				width: 5px;
+				height: 5px;
+				background: #FF0000;
+				display: block;
+				position: absolute;
+				top: 20px;
+				left: 45px;
+			}
+			
+			#head .content .meil:hover {
+				background-color: #ADD8E6;
+			}
+			
+			#head .content .face a {
+				float: right;
+				width: 70px;
+				height: 70px;
+				margin-left: 50px;
+				position: relative;
+			}
+			
+			#head .content .face a img {
+				border-radius: 30px;
+				position: absolute;
+				top: 20px;
+				left: 20px;
+			}
+			
+			#head .content .face a:hover {
+				background-color: #ADD8E6;
+			}
+			
+			#bg {
+				width: 100%;
+				height: 375px;
+				background: url(../images/banner.jpg) center;
+			}
+			
+			#nav {
+				width: 100%;
+				float: left;
+				border-bottom: 1px solid #CCCCCC;
+				background-color: #FFFFFF;
+				padding: 10px 0px;
+			}
+			
+			#nav .content dl {
+				width: 224px;
+				height: 80px;
+				border-right: 1px solid green;
+				float: left;
+				margin-right: 15px;
+				padding: 5px 0px;
+			}
+			
+			#nav .content dl dt {
+				color: #1E90FF;
+				font-size: 18px;
+				line-height: 30px;
+			}
+			
+			#nav .content dl dd a {
+				font-size: 12px;
+				color: #000000;
+			}
+			
+			#nav .content dl dd a:hover {
+				color: #1E90FF;
+			}
+			
+			#container ul {
+				width: 100%;
+				padding-top: 30px;
+				overflow: hidden;
+				/*清除浮动*/
+				border-bottom: 1px solid #C0C0C0;
+			}
+			
+			#container ul li div {
+				width: 222px;
+				height: 185px;
+				float: left;
+				margin: 10px 17px 10px 0px;
+				text-align: center;
+				position: relative;
+			}
+			
+			#container .first {
+				background-color: #6495ED;
+				width: 222px;
+				height: 185px;
+				text-align: center;
+				line-height: 30px;
+				letter-spacing: 1px;
+				color: #FFFFFF;
+			}
+			
+			#container .firbg {
+				background-color: #7FFFD4;
+			}
+			
+			#container .first h2 {
+				margin-top: 35px;
+			}
+			
+			#container .first a {
+				color: #FFFFFF;
+			}
+			
+			#container div a {
+				color: #000000;
+				font-size: 14px;
+			}
+			
+			#container div a:hover {
+				color: #1E90FF;
+			}
+			
+			#container ul li div .mark {
+				margin-top: 0px;
+				color: #FFFFFF;
+				line-height: 25px;
+				position: absolute;
+				width: 222px;
+				height: 145px;
+				background: rgba(0, 0, 0, 0.5);
+				display: none;
+			}
+			
+			#container ul li div .mark a {
+				margin: auto;
+				color: #FFFFFF;
+				width: 80px;
+				height: 25px;
+				display: block;
+				background-color: #1E90FF;
+				border-radius: 2px;
+			}
+			
+			#container ul li div:hover .mark {
+				display: block;
+			}
+			
+			.ptitle {
+				font-size: 30px;
+				padding-top: 20px;
+				padding-bottom: 10px;
+			}
+			
+			#team {
+				overflow: hidden;
+				/*清除浮动*/
+				padding-bottom: 20px;
+				border-bottom: 1px solid #CCCCCC;
+			}
+			
+			#team dl {
+				width: 222px;
+				float: left;
+				padding-top: 20px;
+				margin-right: 16px;
+				line-height: 21px;
+			}
+			
+			#team dl a {
+				float: left;
+			}
+			
+			#team dl dt a {
+				float: left;
+				color: #1E90FF;
+				margin-left: 15px;
+			}
+			
+			#team dl dd {
+				float: left;
+				font-size: 13px;
+				margin-left: 15px;
+			}
+			
+			#foot {
+				padding-bottom: 20px;
+				overflow: hidden;
+			}
+			
+			#foot ul li a {
+				margin-top: 10px;
+				float: left;
+				margin-right: 10px;
+				padding-right: 15px;
+				border-right: 1px solid #BBBBBB;
+				color: #0E0005;
+				font-size: 14px;
+			}
+			
+			#foot ul li a:hover {
+				color: #1E90FF;
+			}

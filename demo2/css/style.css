@@ -1,0 +1,100 @@
+/*author:mingming*/
+@charset "utf-8";
+*{margin: 0px;padding: 0px;list-style: none;text-decoration: none;font-family: "Myriad Pro" "microsoft yahei";color: #000000;}
+body{background: #f1f1f1;}
+
+/*页面*/
+#page{position: absolute; width: 100%;height:100%;top: 0px;left: 0px;}
+
+/*侧面导航*/
+
+#page_nav{position: absolute;width: 60%;height: 100%;background: #262e47 ;top:0px;left:-60%;}
+.opac_1{opacity: 1;}
+#page_nav .page_touxiang{text-align: center;padding: 50px;}
+#page_nav .page_touxiang a p{font-size: 2em;color: #FFFFFF;padding-top: 10px;font-weight:bold;}
+#page_nav .page_sel ul li{padding: 20px 0 30px 40px;background:#262e47;}
+#page_nav .page_sel ul li img{padding-right: 30px;}
+#page_nav .page_sel ul li a span{color: #FFFFFF;font-size: 1.5em;}
+#page_nav .page_sel ul li:hover{background:#4b4e5c;}
+
+/*头部*/
+#page_head{height: 100px;background: #262e47;text-align: center;color: #ffffff;line-height: 100px;}
+#page_head .menu{width: 32px;height: 32px; background: url(../images/menu.png) no-repeat;position: absolute;
+           top: 30px;left: 20px;}              
+#page_head h1{letter-spacing: 3px;font-weight:bold;font-size: 2em;color: #FFFFFF;} 
+
+/*课程分类*/
+#page_classfy{background: #FFFFFF;padding: 20px;}
+#page_classfy ul{overflow: hidden;}
+#page_classfy ul li{width:25%;text-align: center;float: left;margin-bottom: 1em;}
+#page_classfy ul li a{font-size:1.5em;}
+
+/*波浪线*/
+#page_bolang{height: 9px; background: url(../images/ke_bg.png) repeat-x;}
+
+/*推荐课程*/
+#page_line{height: 50px;text-align: center;}
+#page_line div{height: 25px;border-bottom: 2px solid #dcdcdc;;}
+#page_line p{width: 120px;font-size: 1.5em;color:#9f9f9f;background: #f1f1f1;margin: -16px auto 0;}
+
+/*推荐课程内容*/
+#page_recommend{margin: 5px 5px 50px;}
+#page_recommend ul li{background: #FFFFFF; border-radius: 5px;border: 1px solid #e5e5e5;padding:5px;width:100%; 
+                      display:-webkit-box;display: -moz-box;
+                      -webkit-box-sizing: border-box; -moz-box-sizing: border-box;}/*111111111111111111111111*/
+#page_recommend ul li .recommend_img{width: 40%; margin-right: 30px;-webkit-box-sizing: border-box;
+                       -moz-box-sizing: border-box;}
+#page_recommend ul li .recommend_img img{width: 100%;}
+@media screen and (max-width:600px){
+	#page_recommend ul li .recommend_img img{max-width: 140px;}
+}
+@media screen and (min-width:600px) and (max-width:980px){
+	#page_recommend ul li .recommend_img img{max-width:250px;}
+	
+}
+@media screen and (min-width:980px){
+	#page_recommend ul li .recommend_img img{max-width: 540px;}
+}
+#page_recommend ul li .recommend_cont{-webkit-box-flex: 3;-moz-box-flex: 3; padding: 10px 5px 5px 10px;-webkit-box-sizing: border-box;}
+#page_recommend ul li .recommend_cont h2{font-size: 2em;color: #9F9F9F;line-height:1.5em;}
+#page_recommend ul li .recommend_cont .recommend_data ul li{width: 80px; float: left;margin-top: 20px;border: none;
+                                 border-right: 1px solid  #9F9F9F;border-radius:0px;padding:0px 10px 0px 0px}  
+#page_recommend ul li .recommend_cont .recommend_data ul li:nth-of-type(2){padding:0px 10px 0 20px;width: 120px;}
+#page_recommend ul li .recommend_cont .recommend_data ul li:nth-of-type(3){padding:0px 10px 0 20px;border-right: none;}   
+
+/*课程资料*/
+#kecheng_menu ul li{margin: 0px 15px;padding: 20px 25px;border-bottom: 1px inset #ececec;overflow:hidden;}
+#kecheng_menu ul li a div{float: left;font-size: 22px;color: #8e929c;}
+#kecheng_menu ul li a .kecheng_name{line-height: 30px;margin-left: 25px;}
+#kecheng_menu ul li a .kecheng_right{line-height: 30px;float: right;font-family:"Myriad Pro";font-size: 40px;}
+
+/*离线下载*/
+#page_video video{width: 100%;}
+#page_tap{width: 100%;}
+#page_tap .page_taphead ul{overflow: hidden;}
+#page_tap .page_taphead ul li{width:25%;float: left;text-align: center;line-height: 60px;font-weight: 600;font-family:"Myriad Pro";}
+#page_tap .page_taphead ul li.bottom_line{border-bottom:5px darkblue solid;}
+#page_tap .page_tapbody ul li{display: none;}
+#page_tap .page_tapbody ul .page_tapbody_1{display: block;}
+#page_tap .page_tapbody ul .page_tapbody_1 .page_add{padding:15px 30px;margin: 0px;background: #FFFFFF;overflow: hidden;}
+#page_tap .page_tapbody ul .page_tapbody_1 .page_add span{padding: 15px 20px;background: aquamarine;float: right;}
+#page_tap .page_tapbody ul .page_tapbody_1 .page_teacher{background: #FFFFFF;border-radius: 5px;margin: 10px 5px;}
+#page_tap .page_tapbody ul .page_tapbody_1 .page_teacher .page_teacherhead{padding: 15px;}
+#page_tap .page_tapbody ul .page_tapbody_1 .page_teacher .page_teacherhead span{padding: 0px 10px;border-left: 5px darkblue solid;}
+
+
+#page_tap .page_tapbody ul .page_tapbody_1 .page_teacher .teacher{border-top: 1px solid #DCDCDC;display: -webkit-box;display: -moz-box;}
+#page_tap .page_tapbody ul .page_tapbody_1 .page_teacher .teacher .teacher_head{padding: 20px 10px;}
+#page_tap .page_tapbody ul .page_tapbody_1 .page_teacher .teacher .teacher_head img{width: 100px;height: 100px;}
+#page_tap .page_tapbody ul .page_tapbody_1 .page_teacher .teacher .teacher_data{-webkit-box-flex: 3;padding: 20px 10px;}
+#page_tap .page_tapbody ul .page_tapbody_1 .page_teacher .teacher .teacher_data h2{font-size: 1.2em;}
+#page_tap .page_tapbody ul .page_tapbody_1 .page_teacher .teacher .teacher_data p{font-size:0.8em;line-height:20px;}
+
+.page_kecheng{background: #FFFFFF;margin:0px 5px 0px 5px;border-radius: 5px;}
+.page_kecheng .page_kchead{padding: 15px;}
+.page_kecheng .page_kchead span{padding: 0px 10px;border-left: 5px darkblue solid;}
+.page_kecheng .page_kecdata{border-top: 1px solid #DCDCDC;padding: 20px;font-size: 0.8em;}
+
+
+
+
